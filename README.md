@@ -2,7 +2,7 @@
 
 ## What
 
-This repo has some npm commands to trigger actions in apps deployed to Heroku by making an http call to them
+This repo has some npm commands to trigger actions in apps deployed to Heroku by making an http call to them.
 
 ## Why
 
