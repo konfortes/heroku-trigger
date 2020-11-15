@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "echo Doing nothing",
-    "forecastdistribution": "curl -XPOST -H 'Authorization: Basic '${FORECAST_DISTRIBUTION_SECRET_TOKEN}'' ${FORECAST_DISTRIBUTION_ENDPOINT}"
+    "forecastdistribution": "curl -XPOST -H 'Authorization: Basic '${FORECAST_DISTRIBUTION_SECRET_TOKEN}'' ${FORECAST_DISTRIBUTION_ENDPOINT}",
+    "healthdeclaration": "curl -XPOST -H 'Authorization: Basic '${HEALTH_DECLARATION_SECRET_TOKEN}'' ${HEALTH_DECLARATION_ENDPOINT}"
   },
   "repository": {
     "type": "git",
