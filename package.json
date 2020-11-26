@@ -6,7 +6,8 @@
   "scripts": {
     "start": "echo Doing nothing",
     "forecastdistribution": "curl -XPOST -H 'Authorization: Basic '${FORECAST_DISTRIBUTION_SECRET_TOKEN}'' ${FORECAST_DISTRIBUTION_ENDPOINT}",
-    "healthdeclaration": "curl -XPOST -H 'Authorization: Basic '${HEALTH_DECLARATION_SECRET_TOKEN}'' ${HEALTH_DECLARATION_ENDPOINT}"
+    "healthdeclaration": "curl -i -XPOST -H 'Authorization: Basic '${HEALTH_DECLARATION_SECRET_TOKEN}'' ${BARIEBOT_HOST}/declaration",
+    "bariebotwakeup": "curl -i ${BARIEBOT_HOST}/health"
   },
   "repository": {
     "type": "git",
